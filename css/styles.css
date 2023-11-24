@@ -1,0 +1,155 @@
+:root {
+  --color-light: #ffffff;
+  --color-bluelight: #2b7fff;
+  --color-bluedark: #011c44;
+  --color-grey: #747272;
+  --color-darkgrey: #4A4A4A;
+  
+}
+
+/*Base*/
+
+body {
+  color: var(--color-bluedark);
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.17;
+  color: var(--color-light);
+}
+
+form {
+  background-color: var(--color-bluedark);
+}
+
+form input {
+  border: 2px solid var(--color-grey);
+  border-radius: 32px;
+  background-color: transparent;
+}
+form ::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-light);
+}
+
+/*Button*/
+.button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.17;
+  color: var(--color-light);
+  background-color: var(--color-bluelight);
+  border: 2px solid var(--color-bluelight);
+  border-radius: 32px;
+}
+
+.button:hover {
+  color: var(--color-bluedark);
+  background-color: transparent;
+}
+
+/*Link*/
+.logo-link {
+  color: var(--color-bluelight);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0.95;
+  text-transform: capitalize;
+  font-family: "Play";
+}
+
+.header-link {
+  color: var(--color-bluedark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.header-link:hover {
+  color: var(--color-bluelight);
+  font-weight: 700;
+}
+
+/*Section*/
+.section span {
+  color: var(--color-bluelight);
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.16;
+  font-family: "Play";
+}
+
+.description span {
+  text-transform: capitalize;
+}
+
+.logo-style span{
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-bluedark);
+}
+
+
+/*Hero-Section*/
+.hero-title {
+  color: var(--color-bluelight);
+  font-family: "Play";
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+  text-transform: capitalize;
+}
+
+.banner {
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.comments {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-darkgrey);
+}
+
+
+/*Footer*/
+footer {
+  background-color: var(--color-bluedark);
+}
+.footer-link {
+  color: var(--color-light);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.footer-link:hover {
+  color: var(--color-bluelight);
+}
+
+
+.address-copyright {
+  font-size: 13px;
+  color: var(--color-grey);
+}
+
