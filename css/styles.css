@@ -1,10 +1,37 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+
 :root {
   --color-light: #ffffff;
   --color-bluelight: #2b7fff;
   --color-bluedark: #011c44;
   --color-grey: #747272;
-  --color-darkgrey: #4A4A4A;
-  
+  --color-darkgrey: #4a4a4a;
 }
 
 /*Base*/
@@ -26,12 +53,15 @@ address {
   font-style: normal;
 }
 
+
 h3 {
   font-size: 22px;
   font-weight: 600;
   line-height: 1.17;
   color: var(--color-light);
 }
+
+/*Form*/
 
 form {
   background-color: var(--color-bluedark);
@@ -87,6 +117,10 @@ form ::placeholder {
 }
 
 /*Section*/
+.section h2 {
+  font-family: 'Play', sans-serif;
+
+}
 .section span {
   color: var(--color-bluelight);
 }
@@ -95,19 +129,18 @@ form ::placeholder {
   font-size: 64px;
   font-weight: 700;
   line-height: 1.16;
-  font-family: "Play";
 }
+
 
 .description span {
   text-transform: capitalize;
 }
 
-.logo-style span{
+.logo-style span {
   font-weight: 600;
   text-transform: capitalize;
   color: var(--color-bluedark);
 }
-
 
 /*Hero-Section*/
 .hero-title {
@@ -131,7 +164,6 @@ form ::placeholder {
   color: var(--color-darkgrey);
 }
 
-
 /*Footer*/
 footer {
   background-color: var(--color-bluedark);
@@ -147,9 +179,7 @@ footer {
   color: var(--color-bluelight);
 }
 
-
 .address-copyright {
   font-size: 13px;
   color: var(--color-grey);
 }
-
